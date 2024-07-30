@@ -7,8 +7,8 @@ Seasoned Software Engineer with over 8 years of experience in designing, develop
 
 ## 🚀 Skills & Expertise
 - **Languages**: Java, Python, C, PHP, JavaScript
-- **Frameworks & Tools**: Spring Boot, Express.js, Docker, Kubernetes, Apache Kafka, Kafka Connect
-- **Databases**: MySQL, Redis, TimescaleDB
+- **Frameworks & Tools**: Spring Boot, Spring Security, Express.js, Docker, Kubernetes, Apache Kafka, Kafka Connect
+- **Databases**: MySQL, PostgreSQL, Redis, MongoDB, TimescaleDB
 - **Other**: Microservices, RESTful APIs, DevOps, MVC
 
 - 💬 Ask me about **Java, Srping Boot, kafka**
