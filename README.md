@@ -3,8 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shubhajit93&label=Profile%20views&color=0e75b6&style=flat" alt="shubhajit93" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=shubhajit93" alt="shubhajit93" /></a> </p>
-
 - 🔭 I’m currently working on **voice-bridge-ari-proxy-application**
 
 - 🌱 I’m currently learning **Python**
