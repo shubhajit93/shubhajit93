@@ -20,9 +20,9 @@ Seasoned Software Engineer with over 8 years of experience in designing, develop
 - **Description**: Briefly describe the project, its purpose, and key features.
 - **Tech Stack**: List the main technologies and tools used.
 
-### [Another Project](link)
+### [voice-bridge-ari-proxy-app](voice-bridge-ari-proxy-app)
 - **Description**: Highlight the significance of the project, your contributions, and any unique challenges solved.
-- **Tech Stack**: Technologies and tools used in the project.
+- **Tech Stack**: Node.js, Express.js, Docker.
 
 ## 🌱 Currently Learning
 - Exploring advanced concepts in Kubernetes and cloud-native applications.
