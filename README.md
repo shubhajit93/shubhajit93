@@ -16,9 +16,17 @@ Seasoned Software Engineer with over 8 years of experience in designing, develop
 - 📫 How to reach me **shubhajitcse59@gmail.com**
 
 ## 💼 Notable Projects
-### [kafka-connect-etl(dataWarehousing)](link)
+### [Project Name](link)
 - **Description**: Briefly describe the project, its purpose, and key features.
 - **Tech Stack**: List the main technologies and tools used.
+
+### [Another Project](link)
+- **Description**: Highlight the significance of the project, your contributions, and any unique challenges solved.
+- **Tech Stack**: Technologies and tools used in the project.
+
+## 🌱 Currently Learning
+- Exploring advanced concepts in Kubernetes and cloud-native applications.
+- Deepening knowledge in AI and machine learning for backend systems.
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
