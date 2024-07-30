@@ -22,7 +22,7 @@ Seasoned Software Engineer with over 8 years of experience in designing, develop
 
 ### [voice-bridge-ari-proxy-app](https://github.com/shubhajit93/voice-bridge-ari-proxy-app)
 - **Description**: Highlight the significance of the project, your contributions, and any unique challenges solved.
-- **Tech Stack**: Node.js, Express.js, Docker.
+- **Tech Stack**: Node.js, Express.js, Docker, Asterisk.
 
 ## 🌱 Currently Learning
 - Exploring advanced concepts in Kubernetes and cloud-native applications.
