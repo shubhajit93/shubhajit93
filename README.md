@@ -15,6 +15,11 @@ Seasoned Software Engineer with over 8 years of experience in designing, develop
 
 - 📫 How to reach me **shubhajitcse59@gmail.com**
 
+## 💼 Notable Projects
+### [kafka-connect-etl(dataWarehousing)](link)
+- **Description**: Briefly describe the project, its purpose, and key features.
+- **Tech Stack**: List the main technologies and tools used.
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://linkedin.com/in/shubhajitnandi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shubhajitnandi" height="30" width="40" /></a>
