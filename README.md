@@ -26,7 +26,7 @@ Seasoned Software Engineer with over 8 years of experience in designing, develop
 
 ## 🌱 Currently Learning
 - Exploring advanced concepts in Kubernetes and cloud-native applications.
-- Deepening knowledge in AI and machine learning for backend systems.
+- Deepening knowledge in Python and javascript.
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
