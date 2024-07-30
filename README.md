@@ -3,9 +3,11 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shubhajit93&label=Profile%20views&color=0e75b6&style=flat" alt="shubhajit93" /> </p>
 
+I'm a seasoned Software Engineer specializing in backend development. My expertise lies in designing, developing, and optimizing scalable software solutions. I'm passionate about exploring new technologies and continuously improving my skill set.
+
 - 🔭 I’m currently working on **voice-bridge-ari-proxy-application**
 
-- 🌱 I’m currently learning **Python**
+- 🌱 I’m currently learning **Python, javascript**
 
 - 💬 Ask me about **Java, Srping Boot, kafka**
 
