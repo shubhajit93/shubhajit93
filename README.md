@@ -3,11 +3,13 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=shubhajit93&label=Profile%20views&color=0e75b6&style=flat" alt="shubhajit93" /> </p>
 
-I'm a seasoned Software Engineer specializing in backend development. My expertise lies in designing, developing, and optimizing scalable software solutions. I'm passionate about exploring new technologies and continuously improving my skill set.
+Seasoned Software Engineer with over 8 years of experience in designing, developing, and optimizing scalable software solutions. Looking forward to building wide range of technical skill based on challenging role. Proficient in Java, Spring Boot, Python, C, PHP, and JavaScript, with expertise in microservices, RESTful APIs, and modern tools like Docker, Kubernetes, Apache Kafka and Kafka Connect framework.
 
-- 🔭 I’m currently working on **voice-bridge-ari-proxy-application**
-
-- 🌱 I’m currently learning **Python, javascript**
+## 🚀 Skills & Expertise
+- **Languages**: Java, Python, C, PHP, JavaScript
+- **Frameworks & Tools**: Spring Boot, Express.js, Docker, Kubernetes, Apache Kafka, Kafka Connect
+- **Databases**: MySQL, Redis, TimescaleDB
+- **Other**: Microservices, RESTful APIs, DevOps, MVC
 
 - 💬 Ask me about **Java, Srping Boot, kafka**
 
