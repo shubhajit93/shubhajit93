@@ -16,9 +16,9 @@ Seasoned Software Engineer with over 8 years of experience in designing, develop
 - 📫 How to reach me **shubhajitcse59@gmail.com**
 
 ## 💼 Notable Projects
-### [Project Name](link)
+### [kafka-connect-etl(data-warehousing)](https://github.com/shubhajit93/kafka-connect-etl)
 - **Description**: Briefly describe the project, its purpose, and key features.
-- **Tech Stack**: List the main technologies and tools used.
+- **Tech Stack**: kafka, kafka-connect framework, smt, Schema Registry, Java, Docker, Kubernetes, PostgreSQL, TimescaleDB.
 
 ### [voice-bridge-ari-proxy-app](https://github.com/shubhajit93/voice-bridge-ari-proxy-app)
 - **Description**: Highlight the significance of the project, your contributions, and any unique challenges solved.
