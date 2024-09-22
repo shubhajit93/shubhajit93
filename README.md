@@ -26,7 +26,7 @@ Seasoned Software Engineer with over 8 years of experience in designing, develop
 
 ### [Outbound-Call-Gateway](https://github.com/shubhajit93/Outbound-Call-Gateway)
 - **Description**: Outbound-Call-Gateway is a Python project that implements NATS JetStream consumers and publishers. Currently this application is used for generating outbound calls. In addition, this app call be used for any system where queue mechanism is required.
-- **Tech Stack**: Node.js, Express.js, Docker, Asterisk.
+- **Tech Stack**: Python, NATS-Jetstream, Docker, Asterisk.
 
 ## 🌱 Currently Learning
 - Exploring advanced concepts in Kubernetes and cloud-native applications.
