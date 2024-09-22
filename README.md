@@ -24,6 +24,10 @@ Seasoned Software Engineer with over 8 years of experience in designing, develop
 - **Description**: Highlight the significance of the project, your contributions, and any unique challenges solved.
 - **Tech Stack**: Node.js, Express.js, Docker, Asterisk.
 
+### [Outbound-Call-Gateway](https://github.com/shubhajit93/Outbound-Call-Gateway)
+- **Description**: Outbound-Call-Gateway is a Python project that implements NATS JetStream consumers and publishers. Currently this application is used for generating outbound calls. In addition, this app call be used for any system where queue mechanism is required.
+- **Tech Stack**: Node.js, Express.js, Docker, Asterisk.
+
 ## 🌱 Currently Learning
 - Exploring advanced concepts in Kubernetes and cloud-native applications.
 - Deepening knowledge in Python and javascript.
