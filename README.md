@@ -25,7 +25,7 @@ My background is unusual: I started with low-level systems work, including a C-b
 ## 🏆 Selected achievements
 
 - 💰 **Cut SMS routing costs by 90%.** Built an in-house carrier-grade SMSC in C (SMPP, SS7, SCTP) handling **3,000 TPS**, replacing paid third-party providers.
-- ⚡ **Made analytics ~50% faster.** Rebuilt data warehousing on **Kafka + Kafka Connect** with a custom transformation plugin, enabling near real-time BI.
+- ⚡ **Made analytics ~50% faster.** Rebuilt data warehousing on **Kafka + Kafka Connect** with a custom transformation plugin ([open-source rewrite](https://github.com/shubhajit93/kafka-connect-flatten-smt)), enabling near real-time BI.
 - 🧩 **Own a full SaaS platform.** Lead 5 engineers on a **10-service Spring Boot** platform and run all of its DevOps across **4 AWS environments**.
 - 💳 **Payments at telecom scale.** Built Java payment-gateway services running live on **Grameenphone** and **Banglalink**, Bangladesh's largest mobile operators.
 - 📞 **Voice AI in production.** Connected AI voice agents to phone networks with **Asterisk (ARI)** and **LiveKit SIP** trunking.
@@ -45,8 +45,8 @@ As **Senior Software Engineer (Team Lead)** at **Aspire Tech Services and Soluti
 
 | Role | Company | Period | Focus |
 |---|---|---|---|
-| Senior Software Engineer (Team Lead) | Aspire Tech Services and Solutions | 2025 – Present | SaaS platform, microservices, AWS, DevOps |
-| Senior Software Engineer | Verbex | 2023 – 2025 | Voice AI, Java 21, CQRS, Kafka, Asterisk |
+| Senior Software Engineer (Team Lead) | Aspire Tech Services and Solutions | 2025 – Present | SaaS platform, microservices, AWS, DevOps · [case study](https://github.com/shubhajit93/security-awareness-platform-case-study) |
+| Senior Software Engineer | Verbex | 2023 – 2025 | Voice AI, Java 21, CQRS, Kafka, LiveKit, Asterisk · [case study](https://github.com/shubhajit93/voice-ai-platform-case-study) |
 | Senior Software Engineer | Dotlines Bangladesh | 2020 – 2023 | SMSC (3,000 TPS), payment gateways |
 | Software Engineer | SSD-TECH | 2015 – 2020 | SMS systems (2,000 TPS), SMPP/SIP, IVR |
 
@@ -76,9 +76,8 @@ Backend architecture and system design · Microservices and event-driven systems
 |---|---|---|
 | ⭐ [event-driven-campaign-platform](https://github.com/shubhajit93/event-driven-campaign-platform) | Multi-channel campaign delivery on **AWS SQS** with a **transactional outbox**, **idempotent consumers**, per-channel queues, and **visibility-timeout retries with dead-letter queues**. Tested end to end against real SQS (LocalStack) and PostgreSQL | Java 21, Spring Boot 3, AWS SQS, PostgreSQL, LocalStack, Testcontainers, Kubernetes, Terraform, GitHub Actions |
 | 📐 [security-awareness-platform-case-study](https://github.com/shubhajit93/security-awareness-platform-case-study) | Architecture case study of the production SaaS I lead: 10 reactive services, an SQS campaign pipeline, LLM content generation, and AWS infrastructure as code | Spring Boot (WebFlux), Spring Cloud Gateway, MongoDB, Redis, AWS, Terraform, EKS |
-| [kafka-connect-etl](https://github.com/shubhajit93/kafka-connect-etl) | Data-warehousing pipeline with a custom Kafka Connect transformation (`FlattenArray`) that flattens arrays, nested arrays, and objects of arrays for BI analytics | Java, Kafka Connect, Schema Registry, PostgreSQL, TimescaleDB, Docker |
-| [Outbound-Call-Gateway](https://github.com/shubhajit93/Outbound-Call-Gateway) | Asynchronous outbound-call gateway built on NATS JetStream consumers and publishers, reusable for any queue-based workload | Python, asyncio, NATS JetStream, Asterisk, Docker |
-| [voice-bridge-ari-proxy-app](https://github.com/shubhajit93/voice-bridge-ari-proxy-app) | Asterisk ARI application that manages external media channels and bridges, with circuit breakers for fault tolerance | Node.js, Asterisk ARI, Docker |
+| 📐 [voice-ai-platform-case-study](https://github.com/shubhajit93/voice-ai-platform-case-study) | Architecture case study of the Verbex voice-AI platform: AI agents on real phone calls via **LiveKit SIP** and **Asterisk**, reactive Spring Boot **CQRS** services, a zero-downtime **Axon → MongoDB** migration, a Kafka Connect analytics pipeline, and GitOps with Argo CD | Spring Boot (WebFlux), CQRS, MongoDB, LiveKit, Asterisk ARI, NATS JetStream, Kafka Connect, Kubernetes, Argo CD |
+| 🧩 [kafka-connect-flatten-smt](https://github.com/shubhajit93/kafka-connect-flatten-smt) | Open-source Kafka Connect **Single Message Transform** that flattens nested structs, arrays and maps into columns, so any topic can go into a JDBC sink. Zero dependencies, released jar, tested end to end in a real Connect worker | Java 11+, Kafka Connect, JDBC sink, PostgreSQL, Docker, GitHub Actions |
 
 ## 📊 GitHub stats
 
