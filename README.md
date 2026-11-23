@@ -26,7 +26,7 @@ My background is unusual: I started with low-level systems work, including a C-b
 
 - 💰 **Cut SMS routing costs by 90%.** Built an in-house carrier-grade SMSC in C (SMPP, SS7, SCTP) handling **3,000 TPS**, replacing paid third-party providers.
 - ⚡ **Made analytics ~50% faster.** Rebuilt data warehousing on **Kafka + Kafka Connect** with a custom transformation plugin, enabling near real-time BI.
-- 🧩 **Own a full SaaS platform.** Lead 5 engineers on a **7-service Spring Boot** platform and run all of its DevOps across **4 AWS environments**.
+- 🧩 **Own a full SaaS platform.** Lead 5 engineers on a **10-service Spring Boot** platform and run all of its DevOps across **4 AWS environments**.
 - 💳 **Payments at telecom scale.** Built Java payment-gateway services running live on **Grameenphone** and **Banglalink**, Bangladesh's largest mobile operators.
 - 📞 **Voice AI in production.** Connected AI voice agents to phone networks with **Asterisk (ARI)** and **LiveKit SIP** trunking.
 
@@ -34,10 +34,12 @@ My background is unusual: I started with low-level systems work, including a C-b
 
 As **Senior Software Engineer (Team Lead)** at **Aspire Tech Services and Solutions**, I own a security-awareness training SaaS for a US client end to end:
 
-- **Architecture:** 7 Spring Boot microservices (auth, billing, phishing simulation, notifications, reporting) behind an API gateway
+- **Architecture:** 10 reactive Spring Boot services (gateway, auth, registration, phishing simulation, billing, notifications, content, breach monitoring, and more), with event-driven delivery over SQS
 - **Product:** a phishing-simulation engine across email, SMS, and voice, with per-user risk scoring. Uses **GPT-4 / Gemini** for per-customer content and **Twilio + ElevenLabs** for AI voice calls
 - **Billing:** **Stripe** and **PayPal**, including coupons, VAT, and discounts
 - **DevOps:** Terraform, Docker, and Kubernetes on AWS; GitHub Actions CI/CD with test stages and versioned rollback; Grafana monitoring; k6 load testing; a 3-node MongoDB replica set with automatic failover
+
+📐 **Read the architecture case study:** [security-awareness-platform-case-study](https://github.com/shubhajit93/security-awareness-platform-case-study). It covers the system design, the campaign pipeline, infrastructure, and the trade-offs I made. The code is proprietary, so it's a write-up only.
 
 ## 💼 Experience
 
@@ -72,6 +74,8 @@ Backend architecture and system design · Microservices and event-driven systems
 
 | Project | What it does | Stack |
 |---|---|---|
+| ⭐ [event-driven-campaign-platform](https://github.com/shubhajit93/event-driven-campaign-platform) | Multi-channel campaign delivery with a **transactional outbox**, **idempotent consumers**, per-channel Kafka topics, and **retries with a dead-letter topic**. Tested end to end against real PostgreSQL and Kafka | Java 21, Spring Boot 3, Kafka, PostgreSQL, Testcontainers, Kubernetes, Terraform, GitHub Actions |
+| 📐 [security-awareness-platform-case-study](https://github.com/shubhajit93/security-awareness-platform-case-study) | Architecture case study of the production SaaS I lead: 10 reactive services, an SQS campaign pipeline, LLM content generation, and AWS infrastructure as code | Spring Boot (WebFlux), Spring Cloud Gateway, MongoDB, Redis, AWS, Terraform, EKS |
 | [kafka-connect-etl](https://github.com/shubhajit93/kafka-connect-etl) | Data-warehousing pipeline with a custom Kafka Connect transformation (`FlattenArray`) that flattens arrays, nested arrays, and objects of arrays for BI analytics | Java, Kafka Connect, Schema Registry, PostgreSQL, TimescaleDB, Docker |
 | [Outbound-Call-Gateway](https://github.com/shubhajit93/Outbound-Call-Gateway) | Asynchronous outbound-call gateway built on NATS JetStream consumers and publishers, reusable for any queue-based workload | Python, asyncio, NATS JetStream, Asterisk, Docker |
 | [voice-bridge-ari-proxy-app](https://github.com/shubhajit93/voice-bridge-ari-proxy-app) | Asterisk ARI application that manages external media channels and bridges, with circuit breakers for fault tolerance | Node.js, Asterisk ARI, Docker |
