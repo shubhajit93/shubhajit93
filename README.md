@@ -3,7 +3,7 @@
 # Hi, I'm Shubhajit Nandi 👋
 
 <a href="https://www.linkedin.com/in/shubhajit-nandi/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=1200&color=58A6FF&center=true&vCenter=true&width=720&lines=Senior+Backend+Engineer;Java+%7C+Spring+Boot+%7C+Kafka+%7C+AWS+%7C+Kubernetes;Senior+Software+Engineer+%C2%B7+Team+Lead;11%2B+years+building+high-throughput+production+systems" alt="Senior Backend Engineer | Java, Spring Boot, Kafka, AWS, Kubernetes" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=3500&pause=1200&color=58A6FF&center=true&vCenter=true&width=760&lines=Senior+Backend+Engineer+%7C+Technical+Lead;Java+%7C+Spring+Boot+%7C+Kafka+%7C+AWS+%7C+Kubernetes;Senior+Software+Engineer+%C2%B7+11%2B+years+in+production;Telecom+%C2%B7+Payments+%C2%B7+SaaS+%C2%B7+Voice+AI" alt="Senior Backend Engineer | Java, Spring Boot, Kafka, AWS, Kubernetes" />
 </a>
 
 📍 Dhaka, Bangladesh (UTC+6) · 🌍 Open to remote and relocation
@@ -18,19 +18,39 @@
 
 ## 👨‍💻 About me
 
-I'm a backend engineer with **11+ years** of experience building production systems for telecom, payments, SaaS, and voice AI. My work ranges from a C-based SMS platform handling **3,000 TPS** on national mobile networks to Java/Spring Boot microservices on AWS and Kubernetes.
+I'm a Senior Backend Engineer and team lead with **11+ years** of designing and running high-throughput production systems in telecom, payments, SaaS, and voice AI.
 
-Currently I'm a **Senior Software Engineer at Aspire Tech Services and Solutions**, where I lead a team of 5 engineers. We build a security-awareness training SaaS for a US client, and I own it end to end: architecture, backend, AWS infrastructure, releases, and production.
+My background is unusual: I started with low-level systems work, including a C-based SMSC running at **3,000 TPS** on national mobile networks. Today I work with Java/Spring Boot microservices, Kafka event streaming, and AWS/Kubernetes. That means I'm comfortable from the protocol layer up to cloud architecture and production operations.
 
-I care about systems that stay fast and stable under real traffic, clean service boundaries, and boring, reliable deployments.
+## 🏆 Selected achievements
 
-## 🏆 Highlights
+- 💰 **Cut SMS routing costs by 90%.** Built an in-house carrier-grade SMSC in C (SMPP, SS7, SCTP) handling **3,000 TPS**, replacing paid third-party providers.
+- ⚡ **Made analytics ~50% faster.** Rebuilt data warehousing on **Kafka + Kafka Connect** with a custom transformation plugin, enabling near real-time BI.
+- 🧩 **Own a full SaaS platform.** Lead 5 engineers on a **7-service Spring Boot** platform and run all of its DevOps across **4 AWS environments**.
+- 💳 **Payments at telecom scale.** Built Java payment-gateway services running live on **Grameenphone** and **Banglalink**, Bangladesh's largest mobile operators.
+- 📞 **Voice AI in production.** Connected AI voice agents to phone networks with **Asterisk (ARI)** and **LiveKit SIP** trunking.
 
-- ⚡ Built a carrier-grade **SMSC in C** (SMPP, SS7, SCTP) handling **3,000 TPS**, cutting SMS routing costs by **90%**
-- 📉 Cut analytics processing latency by **~50%** with a real-time **Kafka + Kafka Connect** data pipeline
-- 🧩 Designed a **7-service Spring Boot** platform behind an API gateway, with Terraform, Kubernetes, and GitHub Actions CI/CD on AWS
-- 💳 Built **payment-gateway services** running live on Grameenphone and Banglalink, Bangladesh's largest mobile operators
-- 📞 Connected AI voice agents to phone networks with **Asterisk (ARI)**, **LiveKit SIP**, and **Twilio**
+## 🔭 What I'm working on now
+
+As **Senior Software Engineer (Team Lead)** at **Aspire Tech Services and Solutions**, I own a security-awareness training SaaS for a US client end to end:
+
+- **Architecture:** 7 Spring Boot microservices (auth, billing, phishing simulation, notifications, reporting) behind an API gateway
+- **Product:** a phishing-simulation engine across email, SMS, and voice, with per-user risk scoring. Uses **GPT-4 / Gemini** for per-customer content and **Twilio + ElevenLabs** for AI voice calls
+- **Billing:** **Stripe** and **PayPal**, including coupons, VAT, and discounts
+- **DevOps:** Terraform, Docker, and Kubernetes on AWS; GitHub Actions CI/CD with test stages and versioned rollback; Grafana monitoring; k6 load testing; a 3-node MongoDB replica set with automatic failover
+
+## 💼 Experience
+
+| Role | Company | Period | Focus |
+|---|---|---|---|
+| Senior Software Engineer (Team Lead) | Aspire Tech Services and Solutions | 2025 – Present | SaaS platform, microservices, AWS, DevOps |
+| Senior Software Engineer | Verbex | 2023 – 2025 | Voice AI, Java 21, CQRS, Kafka, Asterisk |
+| Senior Software Engineer | Dotlines Bangladesh | 2020 – 2023 | SMSC (3,000 TPS), payment gateways |
+| Software Engineer | SSD-TECH | 2015 – 2020 | SMS systems (2,000 TPS), SMPP/SIP, IVR |
+
+## 🧠 Core strengths
+
+Backend architecture and system design · Microservices and event-driven systems · High-throughput messaging · Payment integrations · Cloud infrastructure and CI/CD · Production operations and incident response · Telecom and VoIP · Technical leadership and mentoring
 
 ## 🛠️ Tech stack
 
@@ -38,21 +58,21 @@ I care about systems that stay fast and stable under real traffic, clean service
 <img src="https://skillicons.dev/icons?i=java,python,c,js&theme=dark" alt="Java, Python, C, JavaScript" />
 
 **Backend and messaging**<br/>
-<img src="https://skillicons.dev/icons?i=spring,fastapi,kafka,rabbitmq&theme=dark" alt="Spring Boot, FastAPI, Kafka, RabbitMQ" />
+<img src="https://skillicons.dev/icons?i=spring,gradle,fastapi,kafka,rabbitmq&theme=dark" alt="Spring Boot, Gradle, FastAPI, Kafka, RabbitMQ" />
 
 **Databases**<br/>
 <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis&theme=dark" alt="PostgreSQL, MySQL, MongoDB, Redis" />
 
 **Cloud and DevOps**<br/>
-<img src="https://skillicons.dev/icons?i=aws,kubernetes,docker,terraform,githubactions,nginx,grafana,linux&theme=dark" alt="AWS, Kubernetes, Docker, Terraform, GitHub Actions, Nginx, Grafana, Linux" />
+<img src="https://skillicons.dev/icons?i=aws,kubernetes,docker,terraform,githubactions,nginx,cloudflare,grafana,linux&theme=dark" alt="AWS, Kubernetes, Docker, Terraform, GitHub Actions, Nginx, Cloudflare, Grafana, Linux" />
 
-**Also:** Java 21 · Spring Cloud · Hibernate · Axon Framework (CQRS) · Event-driven architecture · Kafka Connect · NATS JetStream · AWS (EKS, EC2, S3, CloudFront, SQS, KMS) · k6 · SMPP · SS7 · SIP · Asterisk · LiveKit · Twilio · OpenAI and Gemini APIs
+**Also:** Java 21 · Spring Cloud · Hibernate · Axon Framework (CQRS) · Kafka Connect · NATS JetStream · AWS (EKS, EC2, ECR, S3, CloudFront, SQS) · k6 · SMPP · SS7 · SCTP · SIP · Asterisk · LiveKit · Twilio · OpenAI · Gemini · Stripe · PayPal
 
 ## 📂 Featured projects
 
 | Project | What it does | Stack |
 |---|---|---|
-| [kafka-connect-etl](https://github.com/shubhajit93/kafka-connect-etl) | Data-warehousing pipeline with a custom Kafka Connect transformation (`FlattenArray`) that flattens arrays, nested arrays, and objects of arrays for analytics | Java, Kafka Connect, Schema Registry, PostgreSQL, TimescaleDB, Docker |
+| [kafka-connect-etl](https://github.com/shubhajit93/kafka-connect-etl) | Data-warehousing pipeline with a custom Kafka Connect transformation (`FlattenArray`) that flattens arrays, nested arrays, and objects of arrays for BI analytics | Java, Kafka Connect, Schema Registry, PostgreSQL, TimescaleDB, Docker |
 | [Outbound-Call-Gateway](https://github.com/shubhajit93/Outbound-Call-Gateway) | Asynchronous outbound-call gateway built on NATS JetStream consumers and publishers, reusable for any queue-based workload | Python, asyncio, NATS JetStream, Asterisk, Docker |
 | [voice-bridge-ari-proxy-app](https://github.com/shubhajit93/voice-bridge-ari-proxy-app) | Asterisk ARI application that manages external media channels and bridges, with circuit breakers for fault tolerance | Node.js, Asterisk ARI, Docker |
 
@@ -67,10 +87,17 @@ I care about systems that stay fast and stable under real traffic, clean service
   <img src="https://streak-stats.demolab.com?user=shubhajit93&theme=github-dark-blue&hide_border=true&background=0d1117" alt="GitHub streak" />
 </div>
 
+## 🎓 Education and certification
+
+- **B.Sc. in Computer Science and Engineering**, Chittagong University of Engineering and Technology (CUET), 2010 – 2014
+- **Splunk Certified Cybersecurity Defense Analyst**
+- Languages: Bengali (native), English (fluent)
+
 ---
 
 <div align="center">
 
-💬 Open to **Senior Backend Engineer** roles, remote or on-site. The best way to reach me is on [LinkedIn](https://www.linkedin.com/in/shubhajit-nandi/).
+💬 Open to **Senior Backend Engineer** and **Technical Lead** roles, remote or relocation.<br/>
+The best way to reach me is on [LinkedIn](https://www.linkedin.com/in/shubhajit-nandi/) or by [email](mailto:shubhajitcse59@gmail.com).
 
 </div>
