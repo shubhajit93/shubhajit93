@@ -37,7 +37,7 @@ As **Senior Software Engineer (Team Lead)** at **Aspire Tech Services and Soluti
 - **Architecture:** 10 reactive Spring Boot services (gateway, auth, registration, phishing simulation, billing, notifications, content, breach monitoring, and more), with event-driven delivery over SQS
 - **Product:** a phishing-simulation engine across email, SMS, and voice, with per-user risk scoring. Uses **GPT-4 / Gemini** for per-customer content and **Twilio + ElevenLabs** for AI voice calls
 - **Billing:** **Stripe** and **PayPal**, including coupons, VAT, and discounts
-- **DevOps:** Terraform, Docker, and Kubernetes on AWS; GitHub Actions CI/CD with test stages and versioned rollback; Grafana monitoring; k6 load testing; a 3-node MongoDB replica set with automatic failover
+- **DevOps:** 4 AWS environments defined in **Terraform**, which replaced manual setup with repeatable code and significantly cut provisioning time; Docker and Kubernetes (EKS); GitHub Actions CI/CD with test stages and versioned rollback; Grafana monitoring; k6 load testing; a 3-node MongoDB replica set with automatic failover
 
 📐 **Read the architecture case study:** [security-awareness-platform-case-study](https://github.com/shubhajit93/security-awareness-platform-case-study). It covers the system design, the campaign pipeline, infrastructure, and the trade-offs I made. The code is proprietary, so it's a write-up only.
 
