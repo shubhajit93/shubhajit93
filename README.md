@@ -24,10 +24,10 @@ My background is unusual: I started with low-level systems work, including a C-b
 
 ## 🏆 Selected achievements
 
-- 💰 **Cut SMS routing costs by 90%.** Built an in-house carrier-grade SMSC in C (SMPP, SS7, SCTP) handling **3,000 TPS**, replacing paid third-party providers.
+- 💰 **Cut SMS routing costs by 90%.** Built an in-house carrier-grade SMSC in C (SMPP, SS7, SCTP) handling **3,000 TPS**, replacing paid third-party providers ([case study](https://github.com/shubhajit93/telecom-smsc-platform-case-study)).
 - ⚡ **Made analytics ~50% faster.** Rebuilt data warehousing on **Kafka + Kafka Connect** with a custom transformation plugin ([open-source rewrite](https://github.com/shubhajit93/kafka-connect-flatten-smt)), enabling near real-time BI.
 - 🧩 **Own a full SaaS platform.** Lead 5 engineers on a **10-service Spring Boot** platform and run all of its DevOps across **4 AWS environments**.
-- 💳 **Payments at telecom scale.** Built Java payment-gateway services running live on **Grameenphone** and **Banglalink**, Bangladesh's largest mobile operators.
+- 💳 **Payments at telecom scale.** Built a Java carrier-billing gateway (**~500 TPS**, ~30 services) and a renewal engine processing **~200K subscription renewals a day**, running live on **Grameenphone** and **Banglalink**, Bangladesh's largest mobile operators ([case study](https://github.com/shubhajit93/telecom-charging-gateway-case-study)).
 - 📞 **Voice AI in production.** Connected AI voice agents to phone networks with **Asterisk (ARI)** and **LiveKit SIP** trunking.
 
 ## 🔭 What I'm working on now
