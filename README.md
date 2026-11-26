@@ -26,13 +26,13 @@ My background is unusual: I started with low-level systems work, including a C-b
 
 - 💰 **Cut SMS routing costs by 90%.** Built an in-house carrier-grade SMSC in C (SMPP, SS7, SCTP) handling **3,000 TPS**, replacing paid third-party providers ([case study](https://github.com/shubhajit93/telecom-smsc-platform-case-study)).
 - ⚡ **Made analytics ~50% faster.** Rebuilt data warehousing on **Kafka + Kafka Connect** with a custom transformation plugin ([open-source rewrite](https://github.com/shubhajit93/kafka-connect-flatten-smt)), enabling near real-time BI.
-- 🧩 **Own a full SaaS platform.** Lead 5 engineers on a **10-service Spring Boot** platform and run all of its DevOps across **4 AWS environments**.
+- 🧩 **Shipped a SaaS platform to production.** Lead 5 engineers on a **10-service Spring Boot** platform, now **live in production** with customer pilots under way, and run all of its DevOps across **4 AWS environments**.
 - 💳 **Payments at telecom scale.** Built a Java carrier-billing gateway (**~500 TPS**, ~30 services) and a renewal engine processing **~200K subscription renewals a day**, running live on **Grameenphone** and **Banglalink**, Bangladesh's largest mobile operators ([case study](https://github.com/shubhajit93/telecom-charging-gateway-case-study)).
 - 📞 **Voice AI in production.** Connected AI voice agents to phone networks with **Asterisk (ARI)** and **LiveKit SIP** trunking.
 
 ## 🔭 What I'm working on now
 
-As **Senior Software Engineer (Team Lead)** at **Aspire Tech Services and Solutions**, I own a security-awareness training SaaS for a US client end to end:
+As **Senior Software Engineer (Team Lead)** at **Aspire Tech Services and Solutions**, I own a security-awareness training SaaS for a US client end to end. v1 is live in production, and we're now scaling it as the client onboards customers through pilots:
 
 - **Architecture:** 10 reactive Spring Boot services (gateway, auth, registration, phishing simulation, billing, notifications, content, breach monitoring, and more), with event-driven delivery over SQS
 - **Product:** a phishing-simulation engine across email, SMS, and voice, with per-user risk scoring. Uses **GPT-4 / Gemini** for per-customer content and **Twilio + ElevenLabs** for AI voice calls
